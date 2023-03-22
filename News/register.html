@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="register-container">
+        <h2>User details</h2>
+        <p id="username_p">Username:</p>
+        <p id="gender_p">Gender:</p>
+        <button onclick="showInfo()">Show Info</button>
+        <button onclick="changePassword()">Change Password</button>
+        <form id="update_password_form">
+            <label for="old_password_update_input">Old Password</label>
+            <input type="password" id="old_password_update_input" placeholder="Enter your old password...">
+            <label for="new_password_update_input">New Password</label>
+            <input type="password" placeholder="Enter your new password..." id="new_password_update_input">
+            <label for="confirm_update_input">Confirm New Password</label>
+            <input type="password" placeholder="Confirm your new password..." id="confirm_update_input">
+            <button onclick="updatePassword()">Update Password</button>
+            <a href="./login.html">Back to Login></a>
+        </form>
+        <img src="https://wallpaperset.com/w/full/e/e/2/437977.jpg" alt="">
+    </div>
+
+    <script src="register.js"></script>
+</body>
+
+</html>
